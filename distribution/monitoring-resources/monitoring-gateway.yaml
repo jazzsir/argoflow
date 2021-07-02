@@ -8,9 +8,9 @@ spec:
     istio: ingressgateway
   servers:
   - hosts:
-    - <<__subdomain_grafana__>>.<<__domain__>>
-    - <<__subdomain_kiali__>>.<<__domain__>>
-    - <<__subdomain_kubecost__>>.<<__domain__>>
+    - grafana.jutopia-kubeflow.linecorp.com
+    - kiali.jutopia-kubeflow.linecorp.com
+    - kubecost.jutopia-kubeflow.linecorp.com
     port:
       name: http
       number: 80
@@ -19,9 +19,9 @@ spec:
     tls:
       httpsRedirect: true
   - hosts:
-    - <<__subdomain_grafana__>>.<<__domain__>>
-    - <<__subdomain_kiali__>>.<<__domain__>>
-    - <<__subdomain_kubecost__>>.<<__domain__>>
+    - grafana.jutopia-kubeflow.linecorp.com
+    - kiali.jutopia-kubeflow.linecorp.com
+    - kubecost.jutopia-kubeflow.linecorp.com
     port:
       name: https
       number: 443
