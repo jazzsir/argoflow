@@ -3,7 +3,6 @@ kind: Kustomization
 
 resources:
 - namespace.yaml
-- auth-authorizationpolicy.yaml
 - auth-gateway.yaml
 - oauth2-proxy-secret.yaml
 - oauth2-proxy-signout-virtual-service.yaml
