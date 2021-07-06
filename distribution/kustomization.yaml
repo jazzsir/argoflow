@@ -18,7 +18,7 @@ resources:
 
 # Pick *one* of the following applications 
 - argocd-applications/cert-manager-self-signing.yaml
-# - argocd-applications/cert-manager-dns-01.yaml
+#- argocd-applications/cert-manager-dns-01.yaml
 
 # Pick *one* of the following
 - argocd-applications/certificates.yaml
