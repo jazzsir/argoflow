@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/argoflow/argoflow
-    targetRevision: HEAD
+    repoURL: https://github.com/jazzsir/argoflow
+    targetRevision: release.0.1
     path: istio
     kustomize:
       version: v4.0.5
