@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Perform a simple recursive find-and-replace on all variables defined in setup.conf
+# Perform  a simple recursive find-and-replace on all variables defined in setup.conf
 export SETUP_CONF_PATH=$1 # location of the setup config
 export DISTRIBUTION_PATH=./distribution # folder where the distribution's YAML files are to be found
 
