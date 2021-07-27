@@ -8,13 +8,13 @@ spec:
     istio: ingressgateway
   servers:
   - hosts:
-    - 'kubeflow-jutopia.linecorp.com'
+    - 'kubeflow.kubeflow-jutopia.linecorp.com'
     port:
       name: http
       number: 80
       protocol: HTTP
   - hosts:
-    - 'kubeflow-jutopia.linecorp.com'
+    - 'kubeflow.kubeflow-jutopia.linecorp.com'
     port:
       name: https
       number: 443
