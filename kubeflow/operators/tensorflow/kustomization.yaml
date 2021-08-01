@@ -7,5 +7,5 @@ resources:
 images:
 - name: public.ecr.aws/j1r0q0g6/training/tf-operator
   newName: regi.local:5000/kubeflow/tf_operator
-  newTag: 1.0
+  newTag: 1.1
   # digest: sha256:b10739e751783fc0878505a4b2078c61a3d2a4471a7762f01e320d2f2ef162bd
