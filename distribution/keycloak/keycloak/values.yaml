@@ -640,7 +640,7 @@ metrics:
   ## Enable Keycloak statistics
   ## ref: https://github.com/bitnami/bitnami-docker-keycloak#enabling-statistics
   ##
-  enabled: true
+  enabled: false
 
   ## Keycloak metrics service parameters
   ##
