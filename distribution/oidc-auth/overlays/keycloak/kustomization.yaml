@@ -7,6 +7,7 @@ resources:
 - kubeflow-realm-secret.yaml
 - postgresql-secret.yaml
 - virtual-service.yaml
+- keycloak.yaml
 
 patchesStrategicMerge:
 - oauth2-proxy-signout-virtual-service.yaml
