@@ -23,7 +23,7 @@ spec:
       - name: extraArgs.set-xauthrequest
         value: "true"
       - name: extraArgs.cookie-secure
-        value: "false"
+        value: "true"
       - name: extraArgs.ssl-insecure-skip-verify
         value: "true"
       - name: extraArgs.cookie-samesite
