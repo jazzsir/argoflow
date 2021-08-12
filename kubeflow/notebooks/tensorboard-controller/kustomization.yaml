@@ -6,5 +6,5 @@ resources:
 
 images:
 - name: public.ecr.aws/j1r0q0g6/notebooks/tensorboard-controller
-  newName: regi.local:5000/kubeflow/mytensorboard
-  newTag: 0.4
+  newName: public.ecr.aws/j1r0q0g6/notebooks/tensorboard-controller
+  newTag: master-18264c8f
