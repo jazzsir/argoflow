@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
 - github.com/kubeflow/manifests/common/kubeflow-roles/base
-- github.com/kubeflow/manifests/common/kubeflow-namespace/base
+- kubeflow-namespace.yaml
