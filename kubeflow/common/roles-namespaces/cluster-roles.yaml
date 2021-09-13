@@ -97,6 +97,18 @@ rules:
   verbs:
   - impersonate
 - apiGroups:
+  - kubeflow.org
+  resources:
+  - experiments
+  verbs:
+  - get
+  - list
+  - watch
+  - create
+  - delete
+  - patch
+  - update
+- apiGroups:
   - ""
   resources:
   - pods
