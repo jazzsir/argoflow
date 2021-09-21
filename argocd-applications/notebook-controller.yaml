@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/jazzsir/argoflow
     targetRevision: release.0.1
-    path: kubeflow/notebooks/notebook-controller
+    path: kubeflow/notebooks/notebook-controller/overlays
     kustomize:
       version: v4.0.5
   destination:
